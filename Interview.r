@@ -69,7 +69,7 @@ FRED_data_cpi_gdp_long %>%
     labels = c("Consumer Price Index", "Real GDP")
   )
 
-
+ 
 FRED_data %>% 
   ggplot(aes(x = CPI, y = Nonfarm_Employment)) +
   geom_point() +     #geom_point generates a scatter plot
